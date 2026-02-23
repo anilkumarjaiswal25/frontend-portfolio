@@ -22,7 +22,7 @@ import { NavLink, useNavigate } from 'react-router';
 const Hero = () => {
   return (
     <>
-      <section id='home' className="max-w-[1370px] mx-auto min-h-screen p-6 flex flex-col md:flex-row items-center md:items-start md:gap-8 text-white">
+      <section id='home' className="max-w-[1370px] mx-auto py-[56px] px-[36px] flex flex-col md:flex-row items-center md:items-start md:gap-8 text-white">
         <div className="w-full md:w-[48%] mx-[1%] order-2 md:order-1 mt-[40px] md:mt-[100px]">
           <h1 className='text-center md:text-start text-[40px] font-[500] mb-[10px]'>
             Hi There!
