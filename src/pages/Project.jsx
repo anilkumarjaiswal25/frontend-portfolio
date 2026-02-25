@@ -4,12 +4,14 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import job_portal from '../assets/images/project/job_portal.png';
 import portfolioImg from '../assets/images/project/portfolio.png';
+import e_commerce from '../assets/images/project/e_commerce.png';
 const Project = () => {
   const githubUrl = 'https';
   const demoUrl = 'https://my_project.com';
   const projects = [
     { src: portfolioImg, heading: 'Portfolio', text: 'these website created using frontend react and backend laravel with mysql database' },
     { src: job_portal, heading: 'Job Portal', text: 'these website created using frontend react and backend laravel with mysql database' },
+    { src: e_commerce, heading: 'E-Commerce', text: 'these website created using frontend react and backend laravel with mysql database' },
   ]
   return (
     <>
